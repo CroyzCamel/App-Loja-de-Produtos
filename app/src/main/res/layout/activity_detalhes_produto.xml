@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.activities.DetalhesProduto.DetalhesProduto">
+
+    <ImageView
+        android:id="@+id/dtFotoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@color/black"
+        android:scaleType="centerCrop"
+         />
+
+    <TextView
+        android:id="@+id/dtNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escolha_o_tamanho_do_calcado"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        
+        <RadioButton
+            android:id="@+id/tamanho38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tamanho_38"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@color/transparent"
+            android:layout_marginEnd="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/tamanho39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tamanho_39"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@color/transparent"
+            android:layout_marginEnd="10dp"/>
+
+        <RadioButton
+            android:id="@+id/tamanho40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tamanho_40"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@color/transparent"
+            android:layout_marginEnd="10dp"/>
+
+        <RadioButton
+            android:id="@+id/tamanho41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tamanho_41"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@color/transparent"
+            android:layout_marginEnd="10dp"/>
+
+        <RadioButton
+            android:id="@+id/tamanho42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tamanho_42"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@color/transparent"
+            android:layout_marginEnd="10dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_preco"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/precoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/btFinalizarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/finalizar_pedido"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/dark_blue"/>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Aplicativo de Loja Virtural com Mercado Pago</string>
+
+    <!-- String da FormLogin-->
+    <string name="nome_loja"><b><font color="#3F51B5">Loja</font></b> Virtual</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_senha">Senha</string>
+    <string name="bt_entrar_login">Entrar</string>
+    <string name="txt_tela_cadastro">Cadastre-se agora!</string>
+
+    <!-- String da FormCadastro -->
+    <string name="txt_titulo">Faça seu cadastro!</string>
+    <string name="txt_nome_cadastro">Nome</string>
+    <string name="txt_bt_cadastro">Cadastrar</string>
+    <string name="txt_dialog_carregando">Carregando...</string>
+    <string name="bt_dialog_deslogar">Sair</string>
+    <string name="escolha_o_tamanho_do_calcado">Escolha o tamanho</string>
+    <string name="titulo_preco">Preço</string>
+    <string name="finalizar_pedido">Finalizar pedido</string>
+    <string name="tamanho_38">38</string>
+    <string name="tamanho_39">39</string>
+    <string name="tamanho_40">40</string>
+    <string name="tamanho_41">41</string>
+    <string name="tamanho_42">42</string>
+    <string name="titulo_tela_pagamento">Preencha todos os campos antes do pagamento</string>
+    <string name="hint_bairro">Bairro</string>
+    <string name="hint_rua_e_numero">Rua e Número</string>
+    <string name="hint_cidade_e_estado">Cidade e Estado</string>
+    <string name="hint_celular">Celular</string>
+    <string name="bt_fazer_pagamento">Fazer Pagamento</string>
+</resources>

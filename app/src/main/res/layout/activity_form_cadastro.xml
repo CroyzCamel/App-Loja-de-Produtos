@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true" >
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.activities.FormCadastro.FormCadastro">
+
+    <TextView
+        android:id="@+id/txtTelaCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/txt_titulo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    
+    <View
+        android:id="@+id/containerFormularios"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/container_formularios"
+        app:layout_constraintTop_toBottomOf="@+id/txtTelaCadastro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit_text"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:padding="15dp"
+        android:hint="@string/txt_nome_cadastro"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        app:layout_constraintTop_toTopOf="@id/containerFormularios"
+        app:layout_constraintStart_toStartOf="@id/containerFormularios"
+        app:layout_constraintEnd_toEndOf="@id/containerFormularios"
+        android:autofillHints="0" />
+
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit_text"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:padding="15dp"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        app:layout_constraintTop_toBottomOf="@id/editNome"
+        app:layout_constraintStart_toStartOf="@id/containerFormularios"
+        app:layout_constraintEnd_toEndOf="@id/containerFormularios"
+        android:autofillHints="0" />
+
+    <EditText
+        android:id="@+id/editSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit_text"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:padding="15dp"
+        android:hint="@string/hint_senha"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        app:layout_constraintTop_toBottomOf="@id/editEmail"
+        app:layout_constraintStart_toStartOf="@id/containerFormularios"
+        app:layout_constraintEnd_toEndOf="@id/containerFormularios"
+        android:autofillHints="0" />
+
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:padding="15dp"
+        android:text="@string/txt_bt_cadastro"
+        android:backgroundTint="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/editSenha"
+        app:layout_constraintStart_toStartOf="@id/containerFormularios"
+        app:layout_constraintEnd_toEndOf="@id/containerFormularios" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

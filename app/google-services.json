@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "506798642956",
+    "project_id": "aplicativo-loja-virtual-b19b6",
+    "storage_bucket": "aplicativo-loja-virtual-b19b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506798642956:android:0c31835a56c1b07eeb1b29",
+        "android_client_info": {
+          "package_name": "com.agenda.aplicativodelojavirturalcommercadopago"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBYVzLP_O_zTP5LfQp6kAZnufZfaBPwvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
